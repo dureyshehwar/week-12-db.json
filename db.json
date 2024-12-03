@@ -1,23 +1,25 @@
 {
-    "Products": [
-      { "id": 1, "name": "Laptop"},
-      { "id": 2, "name": "Headphones" }
-    ],
-  
- 
-  
-     "Brand": [
-        {"id":1, "Apple" : "Laptop"},
-        {"id":2,  "Samsung": "Headphones"}
-     ],
-    
-  
-    
-    "Reviews":[
-        {"id": 1, "Apple": "5"},
-        {"id": 2, "Samsung" : "4"}      
-        
-    ]
-    
-  
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "A basic need of programming language.",
+      "price": 500.00,
+      "image": "./images/laptop.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Phones",
+      "description": "The need of every human being of today era for communication.",
+      "price": 150.00,
+      "image": "./images/Phones.jpg"
+    },
+    {
+      "id": 3,
+      "name": "HeadPhones",
+      "description": "A convenient way of listening to music or even your lectures whether you are in a jam, bus, or train.",
+      "price": 50.99,
+      "image": "./images/HeadPhones.jpg"
+    }
+  ]
 }
