@@ -1,11 +1,26 @@
 {
-  "products": [
+  "product": [
+    {
+      "name": "Laptop",
+      "description": "communication",
+      "price": 1000,
+      "image":  "./images/laptop.jpg",
+      "id": 1
+    },
     {
       "name": "Phones",
       "description": "communication",
+      "price": 250,
+      "image":  "./images/Phones.jpg",
+      "id": 2
+    },
+    {
+      "name": "HeadPhones",
+      "description": "communication",
       "price": 150,
-      "image": null,
+      "image":  "./images/Headphones.jpg",
       "id": 3
     }
+ 
   ]
 }
